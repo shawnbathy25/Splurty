@@ -4,9 +4,7 @@ class QuotesController < ApplicationController
   end
 
 
-   def new
-     @quote = Quote.new
-  end
+
 
 
   def create
@@ -16,7 +14,7 @@ class QuotesController < ApplicationController
   end
       redirect_to root_path
   end
-  
+
    def about
   end
 
